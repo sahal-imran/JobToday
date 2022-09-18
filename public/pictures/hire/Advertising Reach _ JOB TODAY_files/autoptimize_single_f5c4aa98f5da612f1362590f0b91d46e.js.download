@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$('.pll-parent-menu-item > a').on('click',function(event){event.preventDefault();$('.sub-menu').toggle();});});

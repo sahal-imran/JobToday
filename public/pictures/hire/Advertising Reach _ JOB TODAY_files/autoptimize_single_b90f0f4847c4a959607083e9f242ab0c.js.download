@@ -1,0 +1,4 @@
+jQuery(document).ready(function($){var headerSize=parseInt($('.site-content-container').css('paddingTop').replace('px',''));var jobTitle=$('#application-form-job-title').text();$('.position-category').slice(0,3).show();if($('.position-category:hidden').length===0){$('#load-more-button').hide();}
+$('#load-more-button').on('click',function(e){e.preventDefault();$('.position-category:hidden').slice(0,2).slideDown();if($('.position-category:hidden').length===0){$('#load-more-button').hide();}
+$('html,body').animate({scrollTop:$(this).offset().top-headerSize},1500);});$('#open-positions-button').on('click',function(){$('html, body').animate({scrollTop:$('#careers-open-positions').offset().top-headerSize},1000);});if(document.referrer.indexOf('open-job-position')!==-1||document.referrer.indexOf('contact-us')!==-1||document.referrer.indexOf('about-us')!==-1){$('#open-positions-button').trigger('click');}
+$('#application-form-hidden-field').val(jobTitle);});

@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "GraphikThin";
+  src: url("../fonts/Graphik-Font-Family/GraphikThin.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikThinItalic";
+  src: url("../fonts/Graphik-Font-Family/GraphikThinItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GraphikRegular";
+  src: url("../fonts/Graphik-Font-Family/GraphikRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikRegularItalic";
+  src: url("../fonts/Graphik-Font-Family/GraphikRegularItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GraphikMedium";
+  src: url("../fonts/Graphik-Font-Family/GraphikMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikMediumItalic";
+  src: url("../fonts/Graphik-Font-Family/GraphikMediumItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GraphikBold";
+  src: url("../fonts/Graphik-Font-Family/GraphikBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikBoldItalic";
+  src: url("../fonts/Graphik-Font-Family/GraphikBoldItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GraphikSemibold";
+  src: url("../fonts/Graphik-Font-Family/GraphikSemibold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GraphikSemiboldItalic";
+  src: url("../fonts/Graphik-Font-Family/GraphikSemiboldItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "GraphikBlack";
+  src: url("../fonts/Graphik-Font-Family/GraphikBlack.otf") format("opentype");
+}
+@font-face {
+  font-family: "GraphikBlackItalic";
+  src: url("../fonts/Graphik-Font-Family/GraphikBlackItalic.otf")
+    format("opentype");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+}
+a {
+  text-decoration: none;
+}
+.SearchFormInputs::placeholder {
+  color: "#4f4f5c";
+  font-size: 18px;
+  font-family: "GraphikRegular";
+}
+.NavFormInputs::placeholder {
+  color: "#eaeaea";
+  font-size: 18px;
+  font-family: "GraphikRegular";
+}
+/* dialogue */
+.MuiBackdrop-root.css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+/* .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  background-color: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: unset !important;
+  border-radius: 32px;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  background-color: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: unset !important;
+  border-radius: 32px;
+} */
+.MuiDialog-paperScrollPaper {
+  border-radius: 32px !important;
+  max-width: 1200px !important;
+  margin: 0 !important;
+}
+.padd-0 {
+  padding: 0px !important;
+}
+
+/* Apply dialog */
+span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root {
+  font-size: 15px !important;
+  line-height: 22px;
+  font-family: GraphikRegular !important;
+}
+textarea::placeholder,
+#PH::placeholder {
+  opacity: 0.5;
+  color: #000;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: GraphikRegular !important;
+}
+
+/* Hiring */
+#Hire, #jobSeekers, #Network {
+  background-image: url("/pictures/hire/Hire.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#jobSeekers{
+  background-image: url("/pictures/hire/JobseekersStats-1.jpg");
+}
+#Network{
+  background-image: url("/pictures/hire/shutterstock_1247772745.jpg");
+}
+.slick-dots{
+  bottom: -80px !important;
+}
+@media screen and (max-width: 900px) {
+  .MuiDialog-paperScrollPaper {
+    border-radius: 0px !important;
+  }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-fb-footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic-fb-footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fb-footer" fill="#000000">
+            <rect id="Rectangle-4" opacity="0.100000001" x="0" y="0" width="40" height="40" rx="9"></rect>
+            <path d="M20.9636926,29.6481976 L20.9636926,21.5980729 L23.6726377,21.5980729 L24.0782026,18.4607401 L20.9636926,18.4607401 L20.9636926,16.4576918 C20.9636926,15.5493608 21.2165265,14.9303062 22.5223921,14.9303062 L24.1879096,14.9296052 L24.1879096,12.1236084 C23.8997821,12.0854432 22.9111691,12 21.7610016,12 C19.3597829,12 17.7158164,13.4620376 17.7158164,16.1470741 L17.7158164,18.4607401 L15,18.4607401 L15,21.5980729 L17.7158164,21.5980729 L17.7158164,29.6481976 L20.9636926,29.6481976 Z" id="Fill-1-Copy-7"></path>
+        </g>
+    </g>
+</svg>

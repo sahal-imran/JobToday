@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var submitButtons=$('.wpcf7-submit');submitButtons.on('click',function(){var popups=$('.wpcf7-response-output');closePopup(popups);});});function closePopup(popups){popups.on('click',function(){popups.fadeOut('fast');});setTimeout(function(){popups.fadeOut('fast')},2000);}

@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$('body').off('click.siteMapToggle').on('click.siteMapToggle','.site-map-toggle',function(){$('.site-map-toggle-wrapper, .footer-mobile-collapse').toggleClass('open');});});

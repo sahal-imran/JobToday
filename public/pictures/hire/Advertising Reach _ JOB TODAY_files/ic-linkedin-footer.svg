@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-linkedin-footer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic-linkedin-footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linkedin-footer" fill="#000000">
+            <rect id="Rectangle-7" fill-rule="evenodd" opacity="0.100000001" x="0" y="0" width="40" height="40" rx="9"></rect>
+            <path d="M11.3615385,7 C9.79230769,7 8.5,8.26923077 8.5,9.86153846 C8.5,11.4307692 9.76923077,12.7230769 11.3615385,12.7230769 C12.9307692,12.7230769 14.2230769,11.4307692 14.2230769,9.86153846 C14.2230769,8.29230769 12.9538462,7 11.3615385,7 Z" id="Shape" fill-rule="nonzero"></path>
+            <path d="M32.3692308,30.8461542 L32.3692308,22.1461542 C32.3692308,17.8769235 31.4461538,14.6000004 26.4615385,14.6000004 C24.0615385,14.6000004 22.4461538,15.915385 21.8,17.1615388 L21.7307692,17.1615388 L21.7307692,14.9923081 L17,14.9923081 L17,30.8461542 L21.9153846,30.8461542 L21.9153846,23.0000004 C21.9153846,20.9230773 22.3076923,18.9384619 24.8692308,18.9384619 C27.4076923,18.9384619 27.4307692,21.315385 27.4307692,23.1384619 L27.4307692,30.8461542 L32.3692308,30.8461542 Z" id="Shape" fill-rule="nonzero"></path>
+            <rect id="Rectangle-path" fill-rule="nonzero" x="9" y="15" width="4.93846154" height="15.8538462"></rect>
+        </g>
+    </g>
+</svg>
